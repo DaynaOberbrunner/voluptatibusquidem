@@ -1,0 +1,37 @@
+{
+  "name": "voluptatibusquidem",
+  "version": "1.0.0",
+  "description": "A tiny utility for detecting the BitKeep Ethereum provider, or any EIP 1193-compliant provider.",
+  "keywords": [
+    "voluptatem",
+    "provider",
+    "bitkeep",
+    "web3",
+    "akkafinance",
+    "akka"
+  ],
+  "author": "LaurianeKris",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DaynaOberbrunner/voluptatibusquidem.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "type": "commonjs",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "tsc",
+    "start": "tsc --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/DaynaOberbrunner/voluptatibusquidem.git/issues"
+  }
+}
